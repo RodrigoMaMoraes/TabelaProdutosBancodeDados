@@ -1,2 +1,2 @@
 # TabelaProdutosBancodeDados
-Atividade individual - Tema: Tabela Produtos (AGRUPAMENTO E AGREGAÇÃO)
+# Atividade individual - Tema: Tabela Produtos (AGRUPAMENTO E AGREGAÇÃO)
