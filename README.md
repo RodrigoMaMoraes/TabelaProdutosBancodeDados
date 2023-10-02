@@ -35,6 +35,8 @@ VALUES ("Maça Verde", 2.99, 100, TRUE, "Apple Happy", "Brasil"),
 
 SELECT * FROM produtos;
 
+![DadosInseridos](https://github.com/RodrigoMaMoraes/TabelaProdutosBancodeDados/blob/main/RelatoriosBD/DadosInseridos.png)
+
 ## ETAPA 2
 
 /* Retorna o número de registros (produtos) na tabela "Produtos" contando a quantidade de valores na coluna "ID_produto". */
