@@ -42,6 +42,8 @@ SELECT * FROM produtos;
 /* Retorna o número de registros (produtos) na tabela "Produtos" contando a quantidade de valores na coluna "ID_produto". */
 SELECT COUNT(ID_produto) FROM produtos;
 
+![Count](https://github.com/RodrigoMaMoraes/TabelaProdutosBancodeDados/blob/main/RelatoriosBD/SelectCount.png)
+
 /* Vai calcular a média dos valores na coluna "Preco" da tabela "Produtos" e retorna o resultado. */
 SELECT AVG(Preco) FROM produtos;
 
