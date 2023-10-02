@@ -47,8 +47,12 @@ SELECT COUNT(ID_produto) FROM produtos;
 /* Vai calcular a média dos valores na coluna "Preco" da tabela "Produtos" e retorna o resultado. */
 SELECT AVG(Preco) FROM produtos;
 
+![AVGpreco](https://github.com/RodrigoMaMoraes/TabelaProdutosBancodeDados/blob/main/RelatoriosBD/SelectAVGpreco.png)
+
 /* Vai ser calculado a média dos preços agrupados por valores da coluna "Perecivel" e retorna os resultados separados por essa coluna. */
 SELECT AVG(Preco), Perecivel FROM produtos GROUP BY (Perecivel);
+
+![AVGPrecoPerecivel](https://github.com/RodrigoMaMoraes/TabelaProdutosBancodeDados/blob/main/RelatoriosBD/SelectAVGPrecoPerecivel.png)
 
 /* Vai Calcular a média dos preços agrupados por valores da coluna "Nome" dos produtos e retorna os resultados. */
 SELECT AVG(Preco), Nome FROM produtos GROUP BY (Nome);
