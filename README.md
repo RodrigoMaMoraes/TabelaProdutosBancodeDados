@@ -31,7 +31,7 @@ VALUES ("Maça Verde", 2.99, 100, TRUE, "Apple Happy", "Brasil"),
        ("Sabonete Palmolive", 0.99, 200, FALSE, "Palmolive", "Brasil");
 
 
-/Retorna todos os registros da tabela "Produtos", exibindo todos os campos de todos os produtos.
+Retorna todos os registros da tabela "Produtos", exibindo todos os campos de todos os produtos.
 
 SELECT * FROM produtos;
 
@@ -39,17 +39,20 @@ SELECT * FROM produtos;
 
 ## ETAPA 2
 
-/* Retorna o número de registros (produtos) na tabela "Produtos" contando a quantidade de valores na coluna "ID_produto". */
+Retorna o número de registros (produtos) na tabela "Produtos" contando a quantidade de valores na coluna "ID_produto".
+
 SELECT COUNT(ID_produto) FROM produtos;
 
 ![Count](https://github.com/RodrigoMaMoraes/TabelaProdutosBancodeDados/blob/main/RelatoriosBD/SelectCount.png)
 
-/* Vai calcular a média dos valores na coluna "Preco" da tabela "Produtos" e retorna o resultado. */
+Vai calcular a média dos valores na coluna "Preco" da tabela "Produtos" e retorna o resultado.
+
 SELECT AVG(Preco) FROM produtos;
 
 ![AVGpreco](https://github.com/RodrigoMaMoraes/TabelaProdutosBancodeDados/blob/main/RelatoriosBD/SelectAVGpreco.png)
 
-/* Vai ser calculado a média dos preços agrupados por valores da coluna "Perecivel" e retorna os resultados separados por essa coluna. */
+Vai ser calculado a média dos preços agrupados por valores da coluna "Perecivel" e retorna os resultados separados por essa coluna.
+
 SELECT AVG(Preco), Perecivel FROM produtos GROUP BY (Perecivel);
 
 ![AVGPrecoPerecivel](https://github.com/RodrigoMaMoraes/TabelaProdutosBancodeDados/blob/main/RelatoriosBD/SelectAVGPrecoPerecivel.png)
